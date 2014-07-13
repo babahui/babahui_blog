@@ -1,28 +1,29 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Stupid I Am
+description:      Im not clever or versatile,but I try hard.
 logo:             site-logo.png
-disqus_shortname:
-search:           true
+disqus_shortname: WHATISTHIS
+search: true
+
 # Change url to your domain. Leave localhost server or blank when working locally.
 # You don't need to specify the protocol if you want it available on http and https. Example: //localhost:4000
-url:              http://localhost:4000
+url:              http://0.0.0.0:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           yorick yip
   avatar:         bio-photo.jpg
-  email:          you@email.com
+  email:          python.yyt@gmail.com  
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
+  twitter:        ruby_test  
   facebook:
-  github:
+  github:         github.com/babahui
   stackexchange:
   linkedin:
   instagram:
   flickr:
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:
+  google_plus:  
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:
@@ -33,16 +34,14 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
+  - title: Information
     url: /about/
   - title: Articles
     url: /articles/
-  - title: Theme Setup
-    url: /theme-setup/
-  - title: Made Mistakes
-    url: http://mademistakes.com
+  - title: Google
+    url: http://www.google.com
     external: true
-
+    
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
@@ -65,6 +64,7 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
+
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "README.md", "LICENSE", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
